@@ -84,7 +84,7 @@ Based on the analysis structure and metrics developed, several actionable insigh
 
 To maximize the value of this analysis for aviation stakeholders, several implementation strategies are recommended:
 
-1. **Interactive Dashboard Development**: Create a live dashboard that allows stakeholders to filter and explore safety metrics by region, aircraft type, time period, and weather conditions to support data-driven decision-making. [Explore the interactive dashboard here]([https://public.tableau.com/views/YourVizName/SheetName](https://public.tableau.com/shared/C46W9R9FN?:display_count=n&:origin=viz_share_link))
+1. **Interactive Dashboard Development**: Create a live dashboard that allows stakeholders to filter and explore safety metrics by region, aircraft type, time period, and weather conditions to support data-driven decision-making. [Explore the interactive dashboard here](https://public.tableau.com/shared/C46W9R9FN?:display_count=n&:origin=viz_share_link)
 
 
 2. **Predictive Model Integration**: Develop predictive models using the established safety metrics to forecast potential safety concerns before they manifest as incidents or accidents.
