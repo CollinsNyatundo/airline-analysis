@@ -10,7 +10,7 @@ The data preparation process involved several key steps to ensure data quality a
 
 ### Data Structure and Key Variables
 
-The merged dataset contains 33 columns in the initial view, capturing multiple dimensions of aviation safety:
+The merged dataset contains 33 columns, capturing multiple dimensions of aviation safety:
 
 - Temporal data: Event dates spanning decades of aviation history
 - Geographic information: Detailed location data including coordinates
