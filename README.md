@@ -39,7 +39,7 @@ A Weather_Resilience metric ranges from 0.0 to 1.0 in the visible data, suggesti
 
 ## Temporal Analysis and Safety Trends
 
-The dataset spans multiple decades of aviation history, with the visible sample showing records from 1948 through 1979. This extensive temporal coverage enables analysis of safety evolution across different eras of aviation technology and regulation. The implementation of a year extraction from event dates facilitates trend analysis and enables the identification of patterns in safety improvements over time.
+The dataset spans multiple decades of aviation history, with records from 1948 through 2022. This extensive temporal coverage enables analysis of safety evolution across different eras of aviation technology and regulation. The implementation of a year extraction from event dates facilitates trend analysis and enables the identification of patterns in safety improvements over time.
 
 ### Aircraft Manufacturer Standardization
 
