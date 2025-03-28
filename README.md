@@ -102,4 +102,6 @@ The Safety Index, Severity Score, and Weather Resilience metrics represent parti
 For future development, expanding the analysis to include economic factors, maintenance records, and operational efficiency metrics would further enhance its utility for feasibility studies and strategic planning in the airline industry. Additionally, extending the geographical scope beyond the United States would provide valuable global benchmarking capabilities for international operators.
 
 ## License
-This project is licensed under the MIT License. See the `LICENSE` file for more details.
+
+This project is licensed under the [MIT License](LICENSE). See the LICENSE file for more details.
+
