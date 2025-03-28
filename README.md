@@ -19,7 +19,7 @@ The merged dataset contains 33 columns in the initial view, capturing multiple d
 - Environmental factors: Weather conditions at time of incident
 - Operational context: Flight phase when incidents occurred
 
-The final dataset has been further enhanced with derived metrics including standardized manufacturer information, extracted year data, and most significantly, calculated safety indices that quantify different aspects of aviation risk.
+The final dataset has been further enhanced with derived metrics including standardized manufacturer information, extracted year data, and most significantly, calculated safety indices and severity scores that quantify different aspects of aviation risk.
 
 ## Safety Metrics Development
 
@@ -31,11 +31,22 @@ A composite metric visible in the final dataset (value range approximately 1.3-2
 
 ### Severity Score
 
-The dataset includes a Severity Score that appears to measure the impact of incidents, with a value of 2.0 visible across multiple sample records. This consistent value in the sample suggests a potential categorical approach to severity classification rather than a continuous variable. This metric likely considers factors such as fatalities, injuries, and aircraft damage to create a standardized measure of incident severity.
+The dataset includes a Severity Score that measures the impact of incidents, with a value of 2.0 visible across multiple sample records.  This metric considers factors such as fatalities, injuries, and aircraft damage to create a standardized measure of incident severity.
+
+California not only has the most accidents but also the highest number of fatal accidents and destroyed aircraft.
+
+Alaska, despite being fourth in total accidents, has a higher proportion of IMC-related accidents, suggesting challenging weather conditions play a significant role in accidents there.
+
+All states show a similar pattern of substantial aircraft damage being the most common outcome, followed by destroyed aircraft.
 
 ### Weather Resilience
 
-A Weather_Resilience metric ranges from 0.0 to 1.0 in the visible data, suggesting a scale that quantifies how well aircraft perform under various weather conditions. This innovative metric could be particularly valuable for airlines operating in regions with challenging weather patterns, providing guidance on which aircraft types demonstrate better performance in adverse conditions.
+A Weather_Resilience metric ranges from 0.0 to 1.0 in the visible data, which is a scale that quantifies how well aircraft perform under various weather conditions. This innovative metric could be particularly valuable for airlines operating in regions with challenging weather patterns, providing guidance on which aircraft types demonstrate better performance in adverse conditions.
+
+The chart shows that VMC (Visual Meteorological Conditions) is the most common weather condition during accidents across all top states. California, Texas, and Florida show similar weather pattern distributions, while Alaska has a higher proportion of IMC (Instrument Meteorological Conditions) accidents compared to other states. Alaska, despite being fourth in total accidents, has a higher proportion of IMC-related accidents, suggesting challenging weather conditions play a significant role in accidents there.
+
+The predominance of VMC(Visual Meteorological Conditions) conditions across all states indicates that most accidents occur in good visibility conditions, suggesting that factors other than weather (such as pilot error or mechanical issues) may be primary contributors.
+
 
 ## Temporal Analysis and Safety Trends
 
@@ -44,6 +55,10 @@ The dataset spans multiple decades of aviation history, with records from 1948 t
 ### Aircraft Manufacturer Standardization
 
 The preprocessing includes standardization of aircraft manufacturer information (Make_Standardized), with the sample showing manufacturers including Piper, Cessna, and Beech. This standardization enables more reliable comparative analysis between different aircraft types and manufacturers, potentially revealing important patterns in safety performance across the industry.
+
+### Avoid High-Risk Regions: Use the geographic analysis to avoid operating in high-risk areas.
+
+Geographic Analysis: The analysis highlights California, Texas, Florida, and Alaska as having a high frequency of accidents. This could be due to factors like higher air traffic density, challenging terrain, or specific weather patterns in these regions. Further investigation involved mapping accident locations within these states to identify potential hotspots or areas requiring extra caution. Consider using external resources like aviation safety databases or FAA reports to supplement this analysis.
 
 ## Actionable Insights for Industry Stakeholders
 
