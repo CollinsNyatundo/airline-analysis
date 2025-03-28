@@ -1,6 +1,6 @@
 # Aviation Safety Analysis and Feasibility Study
 
-This comprehensive report analyzes the airline feasibility study conducted by Collins Nyagaka. It examines aviation accident data to derive safety metrics and operational insights for the airline industry. The analysis provides valuable information for airline operators, safety regulators, and aviation stakeholders seeking to enhance safety protocols and operational efficiency.
+This comprehensive report analyzes the airline feasibility study conducted by Collins Nyagaka. It examines aviation accident data to derive safety metrics and operational insights for the airline industry to support investment into plane purchases. The analysis provides valuable information for airline operators, safety regulators, and aviation stakeholders seeking to enhance safety protocols and operational efficiency.
 
 ## Data Overview and Processing Methodology
 
